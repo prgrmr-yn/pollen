@@ -1,0 +1,92 @@
+/* styles.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f0f0;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.search-box {
+  margin-top: 25px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.result-box {
+  list-style: none;
+  padding: 0;
+}
+
+.result-box li {
+  padding: 10px;
+  cursor: pointer;
+  list-style: none;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+#pollen-nectar{
+  margin: 0 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#pollen, #nectar {
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+#pollen {
+  color: rgb(114, 114, 74);
+}
+
+#nector {
+  color: orange;
+}
+
+.result-box li:hover{
+  background-color: #d6c6c6;
+}
+
+#plant-info {
+  /* display: none; */
+}
+
+.result-box li:first-child {
+}
+.highlighted {
+  background-color: #d6c6c6; /* Change to whatever highlight color you prefer */
+}
